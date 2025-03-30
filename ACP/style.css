@@ -44,3 +44,19 @@ body {
   h3 {
     font-family: "Roboto Slab", serif;
   }
+  /* Social Media Section */
+#social-media {
+  background: #313552;
+  border-radius: 0.5rem;
+}
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f50909;
+  border-radius: 0.5rem;
+}
+footer {
+  background: #35363e;
+}
