@@ -21,6 +21,26 @@ body {
 }
 .navigation-link:hover {
   text-decoration: none;
-  border-bottom: 2px solid #f5ba09;
+  border-bottom: 2px solid #f50909;
   transition: 0.5s ease;
 }
+/* Aligning items in main row */
+.row {
+  display: flex;
+
+  align-items: center;
+}
+
+/* About Section */
+#about {
+  background: #313552;
+  border-radius: 0.5rem;}
+  /* Booking Section */
+#booking {
+    background: #313552;
+    padding-bottom: 2rem;
+    border-radius: 0.5rem;
+  }
+  h3 {
+    font-family: "Roboto Slab", serif;
+  }
