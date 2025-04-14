@@ -21,14 +21,18 @@ body {
 }
 /* Main Container height*/
 .main-container {
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url("images/download.png");
-  background-attachment: fixed;
+
   background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  padding: 6rem;
+  background-attachment: scroll;
 }
 
 /* Aligning items in main row */
@@ -66,4 +70,38 @@ body {
   margin-left: 1rem;
   border: 2px solid #f5ba09;
   border-radius: 0.5rem;
+}
+
+/* Fix projects grid */
+#projects .row {
+  display: flex;
+  flex-direction: row;
+}
+
+#projects .col-4 {
+  width: 50%;
+  max-width: 20rem;
+  margin-bottom: 2rem;
+}
+
+/* Fix social media links */
+
+#social-media .col-3 {
+  width: 100%;
+  max-width: 18rem;
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+
+.media_link {
+  margin-left: 10px;
+}
+
+.media_link .row {
+  align-items: center;
+}
+
+.media_link h3 {
+  font-size: 1.1rem;
+  margin: 0;
 }
